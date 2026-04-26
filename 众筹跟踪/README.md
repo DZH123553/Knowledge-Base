@@ -8,6 +8,25 @@
 
 | 排名 | 产品名称 | 平台 | 项目链接 | 众筹金额 | 目标 |  backers | 上线时间 | 地点 | 类别 | 创始人 | 团队链接 |
 |------|----------|------|----------|----------|------|----------|----------|------|------|--------|----------|
+| 1 | 15 Fantasy Dragon Book Nooks - 3D Printable STL Files | Kickstarter | [链接](https://www.kickstarter.com/projects/15-fantasy-dragon-book-nooks-3d-printable-stl-files) | $1,373 | $100 | 83 | 04-26 06:46 | Chicago, IL | Tabletop Games | Digital Creative Works |  |
+| 2 | Fakhero | Kickstarter | [链接](https://www.kickstarter.com/projects/fakhero) | EUR 1,103 | EUR 30,000 | 5 | 04-26 08:04 | Milano, Italy | Product Design | Luigi Tufano |  |
+| 3 | The PlaySpace: Your Place to Play, Party, and Connect | Kickstarter | [链接](https://www.kickstarter.com/projects/the-playspace-your-place-to-play-party-and-connect) | $100 | $17,500 | 1 | 04-26 00:00 | Falmouth, MA | Product Design | Jessamy |  |
+| 4 | Homes of the Realm - West Barrow Village | Kickstarter | [链接](https://www.kickstarter.com/projects/homes-of-the-realm-west-barrow-village) | GBP 30 | GBP 100 | 2 | 04-26 04:37 | London, UK | Tabletop Games | Omega Constructs |  |
+| 5 | Wooden Play Kitchen for Kids / Montessori Natural Toy | Kickstarter | [链接](https://www.kickstarter.com/projects/wooden-play-kitchen-for-kids-montessori-natural-toy) | $1 | $5,000 | 1 | 04-26 16:41 | Sacramento, CA | Toys | Davyd P |  |
+
+---
+
+## 历史记录
+
+> 重复产品不重复记录，只更新最新众筹情况。
+
+| 产品名称 | 平台 | 项目链接 | 最高众筹金额 | 首次记录日期 | 创始人 | 团队链接 | 备注 |
+|----------|------|----------|--------------|--------------|--------|----------|------|
+| Wooden Play Kitchen for Kids | Montessori Natural Toy | Kickstarter | [链接](https://www.kickstarter.com/projects/wooden-play-kitchen-for-kids-montessori-natural-toy) | $1 | 2026-04-26 | Davyd P |  | |
+| Fakhero | Kickstarter | [链接](https://www.kickstarter.com/projects/fakhero) | EUR 1,103 | 2026-04-26 | Luigi Tufano |  | |
+| 15 Fantasy Dragon Book Nooks - 3D Printable STL Files | Kickstarter | [链接](https://www.kickstarter.com/projects/15-fantasy-dragon-book-nooks-3d-printable-stl-files) | $1,373 | 2026-04-26 | Digital Creative Works |  | |
+| Homes of the Realm - West Barrow Village | Kickstarter | [链接](https://www.kickstarter.com/projects/homes-of-the-realm-west-barrow-village) | GBP 30 | 2026-04-26 | Omega Constructs |  | |
+| The PlaySpace: Your Place to Play, Party, and Connect | Kickstarter | [链接](https://www.kickstarter.com/projects/the-playspace-your-place-to-play-party-and-connect) | $100 | 2026-04-26 | Jessamy |  | |
 | 1 | KRYDRUFI V1 2.0 All-in-One Portable Modular Painting Station | Kickstarter | [链接](https://www.kickstarter.com/projects/krydrufi-v1-20-all-in-one-portable-modular-painting-station) | HKD 391,760 | HKD 30,000 | 646 | 04-25 21:01 | New York, NY | Tabletop Games | KRYDRUFI |  |
 | 2 | Nereus: Abyssal Blue | Kickstarter | [链接](https://www.kickstarter.com/projects/nereus-abyssal-blue) | JPY 206,250 | JPY 1,600,000 | 24 | 04-25 21:00 | Tokyo, Japan | Tabletop Games | Pandori3 |  |
 | 3 | Diamond keepers | Kickstarter | [链接](https://www.kickstarter.com/projects/diamond-keepers-0) | MXN 12,500 | MXN 80,000 | 11 | 04-26 00:14 | Puebla, Mexico | Tabletop Games | Toro Loco Games |  |
@@ -18,18 +37,8 @@
 | 8 | 15 Fantasy Dragon Book Nooks - 3D Printable STL Files | Kickstarter | [链接](https://www.kickstarter.com/projects/15-fantasy-dragon-book-nooks-3d-printable-stl-files) | $1,373 | $100 | 83 | 04-26 06:46 | Chicago, IL | Tabletop Games | Digital Creative Works |  |
 | 9 | Model Painting Specialized Custom Brushes Part 2 | Kickstarter | [链接](https://www.kickstarter.com/projects/model-painting-specialized-custom-brushes-part-2) | CAD 1,275 | CAD 2,000 | 21 | 04-26 02:00 | Regina, Canada | Stationery | Carthage Must Be Destroyed |  |
 | 10 | SUPER SMASH BAE 8 : The VideoGames Pin-Up STL 3D Collection | Kickstarter | [链接](https://www.kickstarter.com/projects/super-smash-bae-8-the-videogames-pin-up-stl-3d-collection) | EUR 1,255 | EUR 111 | 39 | 04-26 07:10 | Ottawa, Canada | Tabletop Games | StudioPaf |  |
-
----
-
-## 历史记录
-
-> 重复产品不重复记录，只更新最新众筹情况。
-
-| 产品名称 | 平台 | 项目链接 | 最高众筹金额 | 首次记录日期 | 创始人 | 团队链接 | 备注 |
-|----------|------|----------|--------------|--------------|--------|----------|------|
 | Marche Ave Berlin: The Transformable Weekender & Backpack | Kickstarter | [链接](https://www.kickstarter.com/projects/marche-ave-berlin-the-transformable-weekender-and-backpack) | EUR 1,677 | 2026-04-26 | Marche Ave Berlin |  | |
 | SUPER SMASH BAE 8 : The VideoGames Pin-Up STL 3D Collection | Kickstarter | [链接](https://www.kickstarter.com/projects/super-smash-bae-8-the-videogames-pin-up-stl-3d-collection) | EUR 1,255 | 2026-04-26 | StudioPaf |  | |
-| 15 Fantasy Dragon Book Nooks - 3D Printable STL Files | Kickstarter | [链接](https://www.kickstarter.com/projects/15-fantasy-dragon-book-nooks-3d-printable-stl-files) | $1,373 | 2026-04-26 | Digital Creative Works |  | |
 | Model Painting Specialized Custom Brushes Part 2 | Kickstarter | [链接](https://www.kickstarter.com/projects/model-painting-specialized-custom-brushes-part-2) | CAD 1,275 | 2026-04-26 | Carthage Must Be Destroyed |  | |
 | THE CONSUMED | Kickstarter | [链接](https://www.kickstarter.com/projects/the-consumed) | $1,520 | 2026-04-26 | Juston McKee |  | |
 | Shadow Wolf: starship maps & miniatures | Kickstarter | [链接](https://www.kickstarter.com/projects/shadow-wolf-starship-maps-and-miniatures) | $3,894 | 2026-04-26 | 0-hr |  | |
@@ -40,6 +49,6 @@
 
 ---
 
-*最后更新：2026-04-26 20:16:18*
+*最后更新：2026-04-26 20:18:09*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*

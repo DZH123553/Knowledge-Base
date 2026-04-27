@@ -37,6 +37,7 @@ class ResearchEngine:
             queries=[
                 "{industry} 行业 市场规模 增长率 2025 2026",
                 "{industry} market size growth rate 2025 2026",
+                "{industry} industry report market analysis global",
                 "{industry} 行业报告 市场分析",
             ],
             max_results=8
@@ -46,6 +47,7 @@ class ResearchEngine:
             queries=[
                 "{industry} 产业链 上下游 价值链 结构分析",
                 "{industry} industry chain value chain ecosystem",
+                "{industry} supply chain key players profit pool",
                 "{industry} 供应链 核心环节 进入壁垒",
             ],
             max_results=8
@@ -54,8 +56,9 @@ class ResearchEngine:
             name="主要公司与竞争格局",
             queries=[
                 "{industry} 主要公司 龙头企业 市场份额 竞争格局",
-                "{industry} leading companies market share competitors",
-                "{industry} 融资 独角兽 估值",
+                "{industry} leading companies market share competitors startup",
+                "{industry} funding series A seed venture capital",
+                "{industry} 融资 独角兽 估值 早期公司",
             ],
             max_results=10
         ),
@@ -64,6 +67,7 @@ class ResearchEngine:
             queries=[
                 "{industry} 技术趋势 核心技术 发展方向 2025 2026",
                 "{industry} technology trends core technology roadmap",
+                "{industry} patent R&D breakthrough innovation",
                 "{industry} 专利 研发投入 技术突破",
             ],
             max_results=8
@@ -73,6 +77,7 @@ class ResearchEngine:
             queries=[
                 "{industry} 政策 监管 法规 2025 2026",
                 "{industry} policy regulation government support",
+                "{industry} regulation compliance legal framework US EU",
                 "{industry} 行业标准 合规要求",
             ],
             max_results=6
@@ -82,29 +87,46 @@ class ResearchEngine:
             queries=[
                 "{industry} 未来趋势 投资前景 预测 2026 2027",
                 "{industry} future trends investment outlook forecast",
-                "{industry} 风险因素 投资机会",
+                "{industry} VC insight investment thesis a16z sequoia",
+                "{industry} 风险因素 投资机会 早期投资",
             ],
             max_results=8
         ),
     }
     
     # Trusted domain whitelist for source quality scoring
+    # 覆盖中/美/欧/日/韩/东南亚等多区域权威信源
     TRUSTED_DOMAINS = {
         "high": [
+            # 国际咨询与研究机构
             "mckinsey.com", "bcg.com", "bain.com", "deloitte.com", "pwc.com",
             "gartner.com", "idc.com", "forrester.com", "grandviewresearch.com",
             "marketsandmarkets.com", "frost.com", "counterpointresearch.com",
             "cbinsights.com", "pitchbook.com", "crunchbase.com",
             "reuters.com", "bloomberg.com", "wsj.com", "ft.com",
+            "economist.com", "mit.edu", "stanford.edu", "harvard.edu",
+            # 中国权威机构
             "eastmoney.com", "cls.cn", "36kr.com", "ithome.com",
             "gov.cn", "sec.gov", "nasdaq.com", "nyse.com",
+            "cs.com.cn", "gtja.com", "htsc.com", "cicc.com", "chinastock.com.cn",
+            # 海外创投与科技媒体
+            "techcrunch.com", "theinformation.com", "venturebeat.com",
+            "a16z.com", "sequoiacap.com", "bessemer.com", "insightpartners.com",
+            "accel.com", "indexventures.com", "benchmark.com",
+            "openai.com", "anthropic.com", "deepmind.google",
+            # 日本/韩国/东南亚
+            "nikkei.com", "asia.nikkei.com", "thejakartapost.com",
+            "techinasia.com", "e27.co", "dealstreetasia.com",
         ],
         "medium": [
-            "techcrunch.com", "theinformation.com", "venturebeat.com",
             "arxiv.org", "ieee.org", "nature.com", "science.org",
             "researchgate.net", "semanticscholar.org",
             "sina.com.cn", "sohu.com", "qq.com", "ifeng.com",
             "tmtpost.com", "pedaily.cn", "chinaventure.com.cn",
+            "coindesk.com", "cointelegraph.com", "decrypt.co",
+            "substack.com", "medium.com",
+            "twitter.com", "x.com", "linkedin.com",
+            "producthunt.com", "ycombinator.com",
         ]
     }
     

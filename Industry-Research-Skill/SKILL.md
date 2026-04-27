@@ -28,7 +28,7 @@ tags: [industry-research, market-analysis, VC, due-diligence, sector-analysis]
 4. **边界清晰**：严格区分"已确认事实"、"行业共识"、"分析师预测"、"作者推断"。
 5. **承认局限**：公开信息天然不完整。在报告中明确说明信息缺口和建议的补充调研方向。
 
-## 六大研究维度
+## 六大研究维度 + VC Insight
 
 | 维度 | 英文 | 核心问题 | 关键数据源 |
 |------|------|----------|-----------|
@@ -38,6 +38,35 @@ tags: [industry-research, market-analysis, VC, due-diligence, sector-analysis]
 | **技术发展与演进路径** | Technology | 核心技术是什么？走到哪了？下一步？ | 学术论文、专利数据库、技术博客 |
 | **政策环境与监管动态** | Policy | 政府支持还是限制？合规成本高吗？ | 政策法规、监管文件、行业协会 |
 | **未来趋势与投资启示** | Trends | 方向去哪？风险在哪？值不值得看？ | 多方观点汇总、情景分析 |
+| **头部 VC Insight** | VC Thesis | 头部机构怎么看？叙事方向是什么？ | a16z、Sequoia、Bessemer、Accel 等 |
+
+### 头部 VC Insight 搜集要求
+
+在每一篇报告中，必须包含以下头部投资机构对该赛道的观点（如有公开信息）：
+
+**优先覆盖的机构（按优先级排序）**：
+1. **a16z** (Andreessen Horowitz) — 加密/Web3/AI/消费
+2. **Sequoia Capital** — 全赛道，尤其关注中国和美国市场
+3. **Bessemer Venture Partners** — SaaS/基础设施/AI
+4. **Accel** — 早期科技/欧洲和印度市场
+5. **Index Ventures** — 欧洲/ SaaS/AI
+6. **Insight Partners** — 成长期 SaaS/基础设施
+7. **Benchmark** — 早期消费/基础设施
+8. **Y Combinator** — 早期创业公司趋势
+9. **Lightspeed** — 消费/企业软件/AI
+10. ** Coatue / Tiger Global** — 晚期/交叉投资
+
+**搜集方式**：
+- 搜索关键词：`{industry} a16z investment thesis` / `{industry} sequoia capital insight`
+- 关注机构的官方博客、播客（a16z Podcast、Sequoia Capital Podcast）
+- 关注机构合伙人在 Twitter/X、LinkedIn 上的公开发言
+- 关注机构被投公司的官方声明和融资新闻稿
+
+**报告呈现要求**：
+- 列出**3-5个核心投资论点**（Investment Thesis）
+- 列出**2-3个关键风险担忧**（Key Concerns）
+- 标注**叙事方向**（Narrative Direction）：当前市场讲什么故事？这个故事在强化还是弱化？
+- 区分"机构官方观点"和"合伙人个人观点"
 
 ## 使用方式
 
@@ -51,7 +80,7 @@ python industry_research.py "AI漫剧"
 python industry_research.py "AI漫剧" --deep
 
 # 自定义输出目录
-python industry_research.py "人形机器人" --output ./reports --deep
+python industry_research.py "Prediction Market" --output ./reports --deep
 ```
 
 ### 方式二：Kimi/Claude 协作模式
@@ -60,17 +89,18 @@ python industry_research.py "人形机器人" --output ./reports --deep
 
 ```
 # 第一步：让 Skill 驱动自主调研
-/industry-research 研究行业：AI漫剧
+/industry-research 研究行业：Prediction Market
             研究深度：深度
-            语言：中文
 
 # 第二步：基于搜集到的原始数据，进行深度分析
 请基于已搜集的数据，重点分析：
-1. AI漫剧产业链中，内容生产方、平台方、技术方的利润分配结构
+1. 产业链利润分配结构
 2. 国内外头部公司的商业模式差异
-3. 技术成熟度（Sora/Pika/Runway vs 国内产品）对比
-4. 监管风险：版权、内容审查、数据隐私
-5. 投资机会判断：哪个环节最值得投？为什么？
+3. 技术成熟度与核心壁垒
+4. 监管风险（尤其关注不同司法管辖区的差异）
+5. 头部 VC 的投资论点和叙事方向
+6. 早期创业公司（A轮及以前）的融资情况、投资方、团队背景
+7. 投资机会判断：哪个环节最值得投？为什么？
 ```
 
 ### 方式三：手动数据输入模式
@@ -133,13 +163,14 @@ gen.save()
 - 核心发现（5-8 条 bullet points）
 - 关键数据点（带来源）
 - 主要提及公司
+- 头部 VC 核心论点速览
 
 ## 行业概览与市场规模
 - 行业定义与边界
 - 历史发展阶段
 - TAM/SAM/SOM（如有数据）
 - 年复合增长率与驱动因素
-- 区域分布特征
+- 区域分布特征（中国/美国/欧洲/东南亚等）
 
 ## 产业链结构与价值链分析
 - 产业链图谱（上中下游）
@@ -149,7 +180,7 @@ gen.save()
 - 关键资源与能力要求
 
 ## 主要公司与竞争格局
-- 头部企业梳理
+- 头部企业梳理（含海外公司）
 - 市场份额（如有数据）
 - 商业模式对比矩阵
 - 融资历史与估值水平
@@ -164,10 +195,38 @@ gen.save()
 
 ## 政策环境与监管动态
 - 国内政策梳理
-- 国际政策对比
+- 国际政策对比（美国/欧洲/东南亚等）
 - 监管框架演变
 - 行业标准与合规要求
 - 政策对竞争格局的影响
+
+## 头部 VC Insight 与投资叙事
+- 头部机构投资论点汇总（a16z / Sequoia / Bessemer 等）
+- 核心叙事方向（Narrative Direction）
+- 关键风险担忧
+- 叙事在强化还是弱化？
+
+## 早期创业公司扫描（A轮及以前）
+> 本章节聚焦 A 轮及以前的早期创业公司，包括：
+> - 公司名称、成立时间、总部所在地
+> - 核心产品/技术、商业模式
+> - 融资历史（轮次、金额、投资方）
+> - 团队背景（创始人履历、核心技术团队）
+> - 与头部公司的差异化定位
+> - 潜在风险与亮点
+
+### 公司一：[公司名]
+- **成立时间**：YYYY-MM
+- **总部**：城市，国家
+- **核心产品**：一句话描述
+- **融资历史**：
+  - Seed轮：$X M，投资方：[机构A, 天使B]
+  - Pre-A轮：$X M，投资方：[机构C]
+- **团队背景**：创始人 [姓名]，前 [公司] [职位]，[学历/成就]
+- **差异化**：与头部公司相比的独特定位
+- **亮点/风险**：
+
+（重复格式覆盖 3-8 家早期公司）
 
 ## 未来趋势与投资启示
 - 技术演进方向（基于事实推演）

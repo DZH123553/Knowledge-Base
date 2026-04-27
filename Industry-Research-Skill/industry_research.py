@@ -46,12 +46,8 @@ def main():
         default="./output",
         help="输出目录（默认：./output）"
     )
-    parser.add_argument(
-        "--lang", "-l",
-        default="zh",
-        choices=["zh", "en", "auto"],
-        help="报告语言（默认：zh）"
-    )
+    # Language parameter removed — reports are generated in the language
+    # that best matches the industry query and source material
     parser.add_argument(
         "--max-results",
         type=int,
@@ -109,12 +105,12 @@ def main():
     print("  ✅ 研究完成！")
     print("=" * 70)
     print(f"\n  📄 Markdown 报告: {paths['markdown']}")
-    print(f"  📘 Word 报告:    {paths['word']}")
     print(f"  📊 原始数据:     {paths['raw_data']}")
     print("\n  ⚠️  重要提醒：")
     print("     1. 本报告基于公开信息的系统性搜集，所有数据均标注来源")
     print("     2. 部分数据可能存在时效滞后，建议对关键数据进行二次核实")
     print("     3. 本报告仅供研究参考，不构成投资建议")
+    print("     4. 海外信源已纳入搜索范围，但部分区域信息可能覆盖不足")
     print("=" * 70)
 
 

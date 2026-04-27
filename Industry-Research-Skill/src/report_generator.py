@@ -11,10 +11,7 @@ import json
 from datetime import datetime
 from typing import Dict, List, Optional
 
-from docx import Document
-from docx.shared import Inches, Pt, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.ns import qn
+
 
 
 class ReportGenerator:
@@ -247,90 +244,13 @@ class ReportGenerator:
         
         return "\n".join(sections)
     
-    def generate_word(self, md_content: str, filename: Optional[str] = None) -> str:
-        """Generate Word document from Markdown content."""
-        if filename is None:
-            safe_name = re.sub(r'[^\w\u4e00-\u9fff\-]', '_', self.industry)[:40]
-            filename = f"{safe_name}_行业研究报告_{self.research_date[:10]}.docx"
-        
-        filepath = os.path.join(self.output_dir, filename)
-        doc = Document()
-        
-        # Set default font for Chinese
-        style = doc.styles['Normal']
-        style.font.name = 'Times New Roman'
-        style.element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')
-        style.font.size = Pt(11)
-        
-        # Parse markdown and add to doc
-        lines = md_content.splitlines()
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-            
-            # Heading 1
-            if line.startswith("# "):
-                p = doc.add_heading(line[2:], level=0)
-                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                i += 1
-                continue
-            
-            # Heading 2
-            if line.startswith("## "):
-                doc.add_heading(line[3:], level=1)
-                i += 1
-                continue
-            
-            # Heading 3
-            if line.startswith("### "):
-                doc.add_heading(line[4:], level=2)
-                i += 1
-                continue
-            
-            # Blockquote
-            if line.startswith("> "):
-                text = line[2:]
-                # Handle nested blockquotes
-                while i + 1 < len(lines) and lines[i + 1].startswith("> "):
-                    i += 1
-                    text += "\n" + lines[i][2:]
-                p = doc.add_paragraph(text)
-                p.style = 'Quote'
-                i += 1
-                continue
-            
-            # List items
-            if re.match(r'^\d+\.\s', line):
-                text = re.sub(r'^\d+\.\s', '', line)
-                doc.add_paragraph(text, style='List Number')
-                i += 1
-                continue
-            
-            if line.startswith("- "):
-                text = line[2:]
-                # Check for bold within
-                doc.add_paragraph(text, style='List Bullet')
-                i += 1
-                continue
-            
-            # Empty line
-            if not line.strip():
-                i += 1
-                continue
-            
-            # Regular paragraph
-            doc.add_paragraph(line)
-            i += 1
-        
-        doc.save(filepath)
-        print(f"[Word] 报告已保存: {filepath}")
-        return filepath
+
     
     def save(self, filename_prefix: Optional[str] = None) -> Dict[str, str]:
-        """Save both Markdown and Word reports."""
+        """Save Markdown report and raw research data."""
         if filename_prefix is None:
             safe_name = re.sub(r'[^\w\u4e00-\u9fff\-]', '_', self.industry)[:40]
-            filename_prefix = f"{safe_name}_行业研究报告_{self.research_date[:10]}"
+            filename_prefix = f"{safe_name}_行业深度研究报告_{self.research_date[:10].replace('-', '')}"
         
         md_content = self.generate_markdown()
         
@@ -338,8 +258,6 @@ class ReportGenerator:
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(md_content)
         print(f"[Markdown] 报告已保存: {md_path}")
-        
-        word_path = self.generate_word(md_content, f"{filename_prefix}.docx")
         
         # Also save raw research data
         data_path = os.path.join(self.output_dir, f"{filename_prefix}_raw_data.json")
@@ -349,6 +267,5 @@ class ReportGenerator:
         
         return {
             "markdown": md_path,
-            "word": word_path,
             "raw_data": data_path,
         }

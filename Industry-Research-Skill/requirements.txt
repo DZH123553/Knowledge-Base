@@ -1,0 +1,5 @@
+duckduckgo-search>=7.0.0
+beautifulsoup4>=4.9.0
+requests>=2.25.0
+python-docx>=0.8.11
+lxml>=4.6.0

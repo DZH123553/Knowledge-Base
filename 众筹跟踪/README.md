@@ -5,23 +5,23 @@
 > **筛选规则**：按众筹完成度排序，取 Top 10（重点类别优先）
 > **重点类别**：Technology / Design / Hardware / Gadgets / Wearables / Software / Robots / 3D Printing
 
-## 本周众筹完成度 Top 10（05-15 ~ 05-22）
+## 本周众筹完成度 Top 10（05-16 ~ 05-23）
 
 | 排名 | 产品名称 | 平台 | 项目链接 | 众筹金额 | 目标 | 完成度 | backers | 剩余天数 | 地点 | 类别 | 创始人 | 团队链接 |
 |------|----------|------|----------|----------|------|--------|---------|----------|------|------|--------|----------|
-| 1 | AEKE S1 Pro FULL-BODY AI HOME GYM | Kickstarter | [链接](https://www.kickstarter.com/projects/aeke-s1-pro-full-body-ai-home-gym) | $2,516,862 | $10,000 | 25169% | 852 | 38天 | New York, NY | Product Design | AEKE |  |
-| 2 | Lumia 2 Smart Earrings: Discreet Next-Gen Health Tracking | Kickstarter | [链接](https://www.kickstarter.com/projects/lumia-2-smart-earrings-discreet-next-gen-health-tracking) | $1,709,542 | $10,000 | 17095% | 5217 | 6天 | Boston, MA | Gadgets | Lumia |  |
-| 3 | Hyzen, World's First Mechanical Magnetic Keyboard | Kickstarter | [链接](https://www.kickstarter.com/projects/hyzen-worlds-first-mechanical-magnetic-keyboard) | HKD 11,435,858 | HKD 80,000 | 14295% | 5721 | 1天 | Kowloon, Hong Kong | Hardware | Lofree |  |
-| 4 | XGIMI TITAN Noir Series: A Dual Iris 4K RGB Laser Projector | Kickstarter | [链接](https://www.kickstarter.com/projects/xgimi-titan-noir-series-4k-projector) | $13,900,324 | $100,000 | 13900% | 4449 | 18天 | Rowland Heights, CA | Hardware | XGIMI Tech |  |
-| 5 | MiixKey丨The World's First Security Key with a Touchscreen | Kickstarter | [链接](https://www.kickstarter.com/projects/miixkey) | HKD 1,388,258 | HKD 10,000 | 13883% | 1321 | 13天 | Hong Kong, Hong Kong | DIY Electronics | MiixPro |  |
-| 6 | TacticalGeek: Quick-Release Magnetic Phone Mount for Straps | Kickstarter | [链接](https://www.kickstarter.com/projects/quick-release-magsafe-iphone-mount-for-backpack-strap-and-gear) | HKD 946,943 | HKD 8,000 | 11837% | 1836 | 12天 | Tokyo, Japan | Product Design | geekgearedc |  |
-| 7 | WavKong V2700: World's 1st RPU-Powered Wi-Fi Router | Kickstarter | [链接](https://www.kickstarter.com/projects/wavkong-v2700-worlds-1st-rpu-powered-wi-fi-router) | HKD 3,182,138 | HKD 30,000 | 10607% | 1037 | 0天 | Hong Kong, Hong Kong | Gadgets | WavKong |  |
-| 8 | Solly: 300W Solar Power Bank with Built-in Wall Charger | Kickstarter | [链接](https://www.kickstarter.com/projects/solly-280w-solar-power-bank-with-built-in-wall-charger) | $316,739 | $3,000 | 10558% | 2625 | 17天 | Newark, DE | Gadgets | Solly |  |
-| 9 | UnioArc: A 7-in-1 Titanium Folding Ruler That Works With You | Kickstarter | [链接](https://www.kickstarter.com/projects/unioarc-a-titanium-folding-ruler-designed-without-limits) | HKD 1,032,008 | HKD 10,000 | 10320% | 1676 | 7天 | Palmdale, CA | Product Design | TiBang |  |
-| 10 | AIROX: 145 PSI Cordless Dual-Compressor. Just 9.9 lb | Kickstarter | [链接](https://www.kickstarter.com/projects/airox-145-psi-cordless-dual-compressor-station-just-99-lb) | $467,567 | $5,000 | 9351% | 1741 | 22天 | Wilmington, DE | Gadgets | Magpie Tech |  |
+| 1 | AEKE S1 Pro FULL-BODY AI HOME GYM | Kickstarter | [链接](https://www.kickstarter.com/projects/aeke-s1-pro-full-body-ai-home-gym) | $2,885,028 | $10,000 | 28850% | 971 | 37天 | New York, NY | Product Design | AEKE |  |
+| 2 | Lumia 2 Smart Earrings: Discreet Next-Gen Health Tracking | Kickstarter | [链接](https://www.kickstarter.com/projects/lumia-2-smart-earrings-discreet-next-gen-health-tracking) | $1,725,095 | $10,000 | 17251% | 5269 | 5天 | Boston, MA | Gadgets | Lumia |  |
+| 3 | Hyzen, World's First Mechanical Magnetic Keyboard | Kickstarter | [链接](https://www.kickstarter.com/projects/hyzen-worlds-first-mechanical-magnetic-keyboard) | HKD 11,459,193 | HKD 80,000 | 14324% | 5733 | 0天 | Kowloon, Hong Kong | Hardware | Lofree |  |
+| 4 | XGIMI TITAN Noir Series: A Dual Iris 4K RGB Laser Projector | Kickstarter | [链接](https://www.kickstarter.com/projects/xgimi-titan-noir-series-4k-projector) | $14,073,734 | $100,000 | 14074% | 4501 | 17天 | Rowland Heights, CA | Hardware | XGIMI Tech |  |
+| 5 | MiixKey丨The World's First Security Key with a Touchscreen | Kickstarter | [链接](https://www.kickstarter.com/projects/miixkey) | HKD 1,397,846 | HKD 10,000 | 13978% | 1331 | 12天 | Hong Kong, Hong Kong | DIY Electronics | MiixPro |  |
+| 6 | TacticalGeek: Quick-Release Magnetic Phone Mount for Straps | Kickstarter | [链接](https://www.kickstarter.com/projects/quick-release-magsafe-iphone-mount-for-backpack-strap-and-gear) | HKD 976,521 | HKD 8,000 | 12207% | 1892 | 11天 | Tokyo, Japan | Product Design | geekgearedc |  |
+| 7 | Solly: 300W Solar Power Bank with Built-in Wall Charger | Kickstarter | [链接](https://www.kickstarter.com/projects/solly-280w-solar-power-bank-with-built-in-wall-charger) | $332,132 | $3,000 | 11071% | 2663 | 16天 | Newark, DE | Gadgets | Solly |  |
+| 8 | UnioArc: A 7-in-1 Titanium Folding Ruler That Works With You | Kickstarter | [链接](https://www.kickstarter.com/projects/unioarc-a-titanium-folding-ruler-designed-without-limits) | HKD 1,056,340 | HKD 10,000 | 10563% | 1712 | 6天 | Palmdale, CA | Product Design | TiBang |  |
+| 9 | Pongbot Aura: World's First Ultra-Light AI Multi-Sport Robot | Kickstarter | [链接](https://www.kickstarter.com/projects/aura-the-worlds-first-ultra-light-ai-multi-sport-robot) | HKD 14,971,455 | HKD 156,654 | 9557% | 2346 | 41天 | Hong Kong, Hong Kong | Robots | PongBot |  |
+| 10 | AIROX: 145 PSI Cordless Dual-Compressor. Just 9.9 lb | Kickstarter | [链接](https://www.kickstarter.com/projects/airox-145-psi-cordless-dual-compressor-station-just-99-lb) | $471,472 | $5,000 | 9429% | 1758 | 21天 | Wilmington, DE | Gadgets | Magpie Tech |  |
 
 ---
 
-*最后更新：2026-05-22 09:49:25*
+*最后更新：2026-05-23 09:16:08*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*

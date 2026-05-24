@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morphos - 简历智能分析与岗位匹配</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mammoth@1.6.0/mammoth.browser.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <div class="logo-icon">M</div>
+                <span class="logo-text">Morphos</span>
+            </div>
+            <nav class="nav-steps">
+                <div class="nav-step active" data-step="1">
+                    <span class="step-num">1</span>
+                    <span class="step-label">核心问卷</span>
+                </div>
+                <div class="nav-step" data-step="2">
+                    <span class="step-num">2</span>
+                    <span class="step-label">简历分析</span>
+                </div>
+                <div class="nav-step" data-step="3">
+                    <span class="step-num">3</span>
+                    <span class="step-label">融合分析</span>
+                </div>
+                <div class="nav-step" data-step="4">
+                    <span class="step-num">4</span>
+                    <span class="step-label">岗位匹配</span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Step 1: Questionnaire -->
+            <section class="step-section active" id="step-1">
+                <div class="section-header">
+                    <h1>Morphos Crucible 核心问卷</h1>
+                    <p class="subtitle">5个开放式问题，探索你的核心思维模式与隐性优势</p>
+                </div>
+
+                <div class="questionnaire-card">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="q-progress"></div>
+                    </div>
+                    
+                    <div class="question-list">
+                        <div class="question-item" data-q="1">
+                            <div class="question-number">Q1</div>
+                            <div class="question-content">
+                                <h3>What's a skill you've developed in a hobby or personal project that you're proud of, even if it seems unrelated to your career?</h3>
+                                <p class="question-hint">描述你在爱好或个人项目中培养的技能，即使它与你的职业看似无关</p>
+                                <textarea class="question-input" placeholder="例如：我在摄影后期中自学了色彩理论和LUT调色逻辑，这让我对数据可视化中的配色方案有了独特见解..." rows="4"></textarea>
+                                <div class="input-stats"><span class="word-count">0</span> 字</div>
+                            </div>
+                        </div>
+
+                        <div class="question-item" data-q="2">
+                            <div class="question-number">Q2</div>
+                            <div class="question-content">
+                                <h3>What topics or activities do you find yourself drawn to, where you lose track of time?</h3>
+                                <p class="question-hint">哪些话题或活动会让你沉浸其中、忘记时间？</p>
+                                <textarea class="question-input" placeholder="例如：研究复杂系统的运作机制，比如城市交通流量优化、推荐算法背后的逻辑..." rows="4"></textarea>
+                                <div class="input-stats"><span class="word-count">0</span> 字</div>
+                            </div>
+                        </div>
+
+                        <div class="question-item" data-q="3">
+                            <div class="question-number">Q3</div>
+                            <div class="question-content">
+                                <h3>If you could design a new role for yourself from scratch, what tasks would it involve?</h3>
+                                <p class="question-hint">如果从零开始为自己设计一个新角色，它会包含哪些任务？</p>
+                                <textarea class="question-input" placeholder="例如：结合数据科学与用户研究，负责从0到1构建预测模型并直接参与产品决策..." rows="4"></textarea>
+                                <div class="input-stats"><span class="word-count">0</span> 字</div>
+                            </div>
+                        </div>
+
+                        <div class="question-item" data-q="4">
+                            <div class="question-number">Q4</div>
+                            <div class="question-content">
+                                <h3>What's a complex idea or system you enjoy explaining to others?</h3>
+                                <p class="question-hint">你喜欢向他人解释的复杂概念或系统是什么？</p>
+                                <textarea class="question-input" placeholder="例如：区块链的共识机制、机器学习中的注意力机制、或者分布式系统的CAP定理..." rows="4"></textarea>
+                                <div class="input-stats"><span class="word-count">0</span> 字</div>
+                            </div>
+                        </div>
+
+                        <div class="question-item" data-q="5">
+                            <div class="question-number">Q5</div>
+                            <div class="question-content">
+                                <h3>Any other strengths or interests you believe define your work style?</h3>
+                                <p class="question-hint">你认为定义了自己工作风格的其他优势或兴趣？</p>
+                                <textarea class="question-input" placeholder="例如：我倾向于用第一性原理思考问题，喜欢先建立理论框架再实践验证..." rows="4"></textarea>
+                                <div class="input-stats"><span class="word-count">0</span> 字</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="validation-hint" id="step1-hint">
+                        <span class="hint-icon">💡</span>
+                        <span class="hint-text">请在上方 5 个问题中各输入至少 5 个字符</span>
+                    </div>
+                    <div class="section-actions">
+                        <button class="btn btn-primary btn-large" id="btn-step1-next" disabled>
+                            <span>继续：简历分析</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 2: CV Input -->
+            <section class="step-section" id="step-2">
+                <div class="section-header">
+                    <h1>上传简历</h1>
+                    <p class="subtitle">上传 PDF / Word / 文本简历，系统自动解析并匹配最佳岗位</p>
+                </div>
+
+                <!-- CV Upload -->
+                <div class="cv-upload-card" id="cv-upload-area">
+                    <div class="upload-zone" id="upload-zone">
+                        <input type="file" id="cv-file-input" accept=".pdf,.docx,.doc,.txt" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:2">
+                        <div class="upload-icon">📎</div>
+                        <div class="upload-title">点击或拖拽上传简历</div>
+                        <div class="upload-subtitle">支持 PDF、Word (.docx)、纯文本格式</div>
+                        <div class="upload-status" id="upload-status"></div>
+                    </div>
+                </div>
+
+                <div class="cv-input-grid" style="display:none">
+                    <div class="cv-card">
+                        <div class="cv-card-header">
+                            <div class="cv-icon">📄</div>
+                            <h3>工作经历 & 项目成果</h3>
+                        </div>
+                        <textarea class="cv-input" id="cv-work" placeholder="请描述你的工作经历、担任职位、参与的项目及可量化的成果...
+
+例如：
+• 高级数据分析师 | ABC科技 | 2021-至今
+  - 负责用户增长漏斗分析，通过建立预测模型将转化率提升23%
+  - 主导A/B测试框架搭建，覆盖全产品线实验" rows="8"></textarea>
+                    </div>
+
+                    <div class="cv-card">
+                        <div class="cv-card-header">
+                            <div class="cv-icon">🛠</div>
+                            <h3>技术技能 & 工具栈</h3>
+                        </div>
+                        <textarea class="cv-input" id="cv-skills" placeholder="列出你掌握的技术技能、编程语言、框架和工具...
+
+例如：
+• Python (Pandas, Scikit-learn, PyTorch)
+• SQL (复杂查询优化、ETL流程)
+• 数据可视化 (Tableau, D3.js)
+• 认证：AWS Machine Learning Specialty" rows="8"></textarea>
+                    </div>
+
+                    <div class="cv-card full-width">
+                        <div class="cv-card-header">
+                            <div class="cv-icon">📊</div>
+                            <h3>职业发展 & 影响力指标</h3>
+                        </div>
+                        <textarea class="cv-input" id="cv-growth" placeholder="描述你的职业成长轨迹、领导力经验、跨团队协作和适应性证据...
+
+例如：
+• 2年内从初级分析师晋升为团队负责人，管理5人小组
+• 主导跨部门数据治理项目，协调产品、工程和业务团队
+• 在业务战略调整期快速学习新领域知识，3个月内独立负责新市场分析" rows="6"></textarea>
+                    </div>
+                </div>
+
+                <div class="section-actions" style="justify-content:center;margin-top:24px">
+                    <button class="btn btn-secondary" id="btn-step2-back">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        <span>返回问卷</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Step 3: Processing -->
+            <section class="step-section" id="step-3">
+                <div class="processing-center">
+                    <div class="processing-animation">
+                        <div class="orbit">
+                            <div class="orbit-ring ring-1"></div>
+                            <div class="orbit-ring ring-2"></div>
+                            <div class="orbit-ring ring-3"></div>
+                            <div class="orbit-core">M</div>
+                        </div>
+                    </div>
+                    <h2 class="processing-title">正在进行 Atomic DNA 融合分析</h2>
+                    <p class="processing-subtitle">结合问卷隐性信号与简历显性证据，构建你的 5 维能力画像</p>
+                    
+                    <div class="processing-steps">
+                        <div class="proc-step active" id="proc-1">
+                            <div class="proc-dot"></div>
+                            <span>提取问卷技能标签与认知特征</span>
+                        </div>
+                        <div class="proc-step" id="proc-2">
+                            <div class="proc-dot"></div>
+                            <span>解析 CV 证据与可验证指标</span>
+                        </div>
+                        <div class="proc-step" id="proc-3">
+                            <div class="proc-dot"></div>
+                            <span>计算 5-D 独立评分</span>
+                        </div>
+                        <div class="proc-step" id="proc-4">
+                            <div class="proc-dot"></div>
+                            <span>融合权重计算与 ACKG 匹配</span>
+                        </div>
+                        <div class="proc-step" id="proc-5">
+                            <div class="proc-dot"></div>
+                            <span>生成岗位推荐与技能差距分析</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 4: Results -->
+            <section class="step-section" id="step-4">
+                <div class="section-header compact">
+                    <h1>你的 Morphos 分析报告</h1>
+                    <div class="dna-badge">
+                        <span class="dna-label">Atomic DNA Score</span>
+                        <span class="dna-score" id="final-dna-score">--</span>
+                    </div>
+                </div>
+
+                <div class="results-grid">
+                    <!-- 5D Profile Comparison -->
+                    <div class="result-card wide">
+                        <div class="result-card-header">
+                            <h3>5-Dimensional Atomic DNA 画像</h3>
+                            <div class="legend">
+                                <span class="legend-item"><span class="dot q"></span>问卷 (隐性) 40%</span>
+                                <span class="legend-item"><span class="dot cv"></span>简历 (显性) 60%</span>
+                                <span class="legend-item"><span class="dot fused"></span>融合画像</span>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                        <div class="dimension-weights">
+                            <div class="dim-weight">
+                                <span class="dim-name">D1 核心能力</span>
+                                <span class="dim-percent">40%</span>
+                            </div>
+                            <div class="dim-weight">
+                                <span class="dim-name">D2 思维模式</span>
+                                <span class="dim-percent">24%</span>
+                            </div>
+                            <div class="dim-weight">
+                                <span class="dim-name">D3 领域知识</span>
+                                <span class="dim-percent">13%</span>
+                            </div>
+                            <div class="dim-weight">
+                                <span class="dim-name">D4 方法论</span>
+                                <span class="dim-percent">13%</span>
+                            </div>
+                            <div class="dim-weight">
+                                <span class="dim-name">D5 工具平台</span>
+                                <span class="dim-percent">10%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Scoring Details -->
+                    <div class="result-card">
+                        <div class="result-card-header">
+                            <h3>评分详情</h3>
+                        </div>
+                        <div class="score-breakdown">
+                            <div class="score-section">
+                                <h4>问卷维度评分 <span class="weight-tag">w=0.4</span></h4>
+                                <div class="dim-bars" id="q-bars"></div>
+                            </div>
+                            <div class="score-section">
+                                <h4>简历维度评分 <span class="weight-tag">w=0.6</span></h4>
+                                <div class="dim-bars" id="cv-bars"></div>
+                            </div>
+                            <div class="score-section highlight">
+                                <h4>融合维度评分</h4>
+                                <div class="formula-box">
+                                    <span class="formula">D<sub>Fused</sub> = 0.4 × D<sub>Q</sub> + 0.6 × D<sub>CV</sub></span>
+                                </div>
+                                <div class="dim-bars" id="fused-bars"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formula Card -->
+                    <div class="result-card">
+                        <div class="result-card-header">
+                            <h3>核心计算公式</h3>
+                        </div>
+                        <div class="formulas-list">
+                            <div class="formula-item">
+                                <div class="formula-title">融合 DNA 综合得分</div>
+                                <div class="formula-content" id="formula-dna"></div>
+                            </div>
+                            <div class="formula-item">
+                                <div class="formula-title">推荐得分</div>
+                                <div class="formula-content" id="formula-rec"></div>
+                            </div>
+                            <div class="formula-item">
+                                <div class="formula-title">转型难度</div>
+                                <div class="formula-content" id="formula-transition"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role Recommendations -->
+                    <div class="result-card wide">
+                        <div class="result-card-header">
+                            <h3>Top 3 岗位推荐</h3>
+                            <span class="subheader">基于 ACKG 自适应职业知识图谱</span>
+                        </div>
+                        <div class="role-list" id="role-list"></div>
+                    </div>
+
+
+                </div>
+
+                    <!-- Job Matching -->
+                    <div class="result-card wide" id="job-match-card" style="display:none;">
+                        <div class="result-card-header">
+                            <h3>🎯 Boss直聘 真实岗位推荐</h3>
+                            <span class="subheader">基于你的画像匹配最适合的 5 个岗位</span>
+                        </div>
+                        <div id="job-match-loading" style="display:none; text-align:center; padding:40px;">
+                            <div class="spinner"></div>
+                            <p style="margin-top:16px; color:#64748b;">正在 Boss直聘 搜索匹配岗位...</p>
+                        </div>
+                        <div id="job-match-error" style="display:none; padding:20px; background:#fef2f2; border-radius:8px; color:#991b1b;"></div>
+                        <div id="job-match-config" style="display:none; padding:24px; background:#f8fafc; border-radius:12px; margin-bottom:16px; border:1px solid #e2e8f0;">
+                            <h4 style="margin-bottom:8px; color:#0f172a;">🔐 需要登录 Boss直聘</h4>
+                            <p style="color:#64748b; font-size:13px; margin-bottom:16px; line-height:1.6;">
+                                为了获取真实岗位并直接跳转到投递页面，需要你的 Boss直聘 登录凭证。<br>
+                                <strong>获取方式：</strong>用 Chrome 登录 <a href="https://www.zhipin.com" target="_blank" style="color:#6366f1;">boss直聘</a> → F12 打开开发者工具 → Application → Cookies → 复制 <code>wt2</code> 和 <code>zp_stoken</code> 的值粘贴到下方：
+                            </p>
+                            <textarea id="boss-cookie-input" rows="2" style="width:100%; padding:10px; border:1px solid #cbd5e1; border-radius:6px; font-size:12px; font-family:monospace;" placeholder="wt2=xxx; zp_stoken=xxx;"></textarea>
+                            <button class="btn btn-primary" id="btn-save-cookie" style="margin-top:12px;">💾 保存并搜索岗位</button>
+                        </div>
+                        <div class="job-list" id="job-list"></div>
+                    </div>
+
+                    <!-- Action to trigger job search -->
+                    <div class="section-actions center" id="job-match-actions">
+                        <button class="btn btn-primary" id="btn-find-jobs">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                            <span>🔍 搜索真实匹配岗位</span>
+                        </button>
+                        <button class="btn btn-secondary" id="btn-restart">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 005.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 013.51 15"/></svg>
+                            <span>重新开始分析</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Morphos Crucible · 隐性信号与显性证据的融合智能</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

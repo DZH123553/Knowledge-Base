@@ -16,12 +16,12 @@
 | 5 | Iris Green: World’s First PICO AR HUD for Safer Cycling | Kickstarter | [链接](https://www.kickstarter.com/projects/irisgreen) | HKD 1,438,006 | HKD 10,000 | 14380% | 775 | 4天 | Cleveland, TN | Gadgets | Irisarworld |  |
 | 6 | Modular STL Blasters | Kickstarter | [链接](https://www.kickstarter.com/projects/modular-stl-blasters) | EUR 6,176 | EUR 50 | 12352% | 93 | 14天 | France, France | 3D Printing | STL Fun Forge |  |
 | 7 | Crown Town - The Market of the King - STL for tabletop TTRPG | Kickstarter | [链接](https://www.kickstarter.com/projects/crown-town-the-market-of-the-king-stl-for-tabletop-ttrpg) | $1,054 | $10 | 10540% | 246 | 3天 | New York, NY | 3D Printing | Props & Treasure |  |
-| 8 | TSUKI: A Japanese Knife Designed to be Admired | Kickstarter | [链接](https://www.kickstarter.com/projects/tsuki-a-japanese-knife-designed-to-be-admired) | JPY 46,597,059 | JPY 500,000 | 9319% | 1146 | 32天 | Tokyo, Japan | Product Design | JP-crafts. |  |
-| 9 | VENTY PRO Series / An Advanced Portable Fan | Kickstarter | [链接](https://www.kickstarter.com/projects/venty-pro) | $462,811 | $5,000 | 9256% | 2978 | 0天 | Las Vegas, NV | Product Design | VENTY |  |
-| 10 | DUSQ - The World’s Only Sleep Regulation System | Kickstarter | [链接](https://www.kickstarter.com/projects/dusq-the-worlds-only-sleep-regulation-system) | $884,792 | $10,000 | 8848% | 3249 | 24天 | Newark, DE | Wearables | DUSQ |  |
+| 8 | TSUKI: A Japanese Knife Designed to be Admired | Kickstarter | [链接](https://www.kickstarter.com/projects/tsuki-a-japanese-knife-designed-to-be-admired) | JPY 46,633,246 | JPY 500,000 | 9327% | 1147 | 32天 | Tokyo, Japan | Product Design | JP-crafts. |  |
+| 9 | VENTY PRO Series / An Advanced Portable Fan | Kickstarter | [链接](https://www.kickstarter.com/projects/venty-pro) | $463,208 | $5,000 | 9264% | 2981 | 0天 | Las Vegas, NV | Product Design | VENTY |  |
+| 10 | DUSQ - The World’s Only Sleep Regulation System | Kickstarter | [链接](https://www.kickstarter.com/projects/dusq-the-worlds-only-sleep-regulation-system) | $885,157 | $10,000 | 8852% | 3250 | 24天 | Newark, DE | Wearables | DUSQ |  |
 
 ---
 
-*最后更新：2026-06-15 15:18:59*
+*最后更新：2026-06-15 15:31:27*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*

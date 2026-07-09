@@ -5,23 +5,23 @@
 > **筛选规则**：按众筹完成度排序，取 Top 10（重点类别优先）
 > **重点类别**：Technology / Design / Hardware / Gadgets / Wearables / Software / Robots / 3D Printing
 
-## 本周众筹完成度 Top 10（07-01 ~ 07-08）
+## 本周众筹完成度 Top 10（07-02 ~ 07-09）
 
 | 排名 | 产品名称 | 平台 | 项目链接 | 众筹金额 | 目标 | 完成度 | backers | 剩余天数 | 地点 | 类别 | 创始人 | 团队链接 |
 |------|----------|------|----------|----------|------|--------|---------|----------|------|------|--------|----------|
-| 1 | MatchGrip - Precision Tweezers You’ll Actually Carry | Kickstarter | [链接](https://www.kickstarter.com/projects/matchgrip-worlds-smallest-titanium-edc-precision-tweezers) | HKD 1,278,865 | HKD 15,000 | 8526% | 3143 | 0天 | Los Angeles, CA | Product Design | LASTOOLX |  |
-| 2 | Foldryn: Dry and wrinkle-free, every single time. | Kickstarter | [链接](https://www.kickstarter.com/projects/foldryn-dryer-the-ultra-compact-wardrobe-care-system) | HKD 1,048,425 | HKD 15,660 | 6695% | 1113 | 4天 | Hong Kong, Hong Kong | Product Design | Foldryn |  |
-| 3 | Presence — A Persistent Local AI system that lives with you | Kickstarter | [链接](https://www.kickstarter.com/projects/blacknode-presence) | EUR 65,686 | EUR 1,000 | 6569% | 317 | 1天 | Italia, Italy | Software | Massimo Giuseppe Zito |  |
-| 4 | Nature Smooth Snow: Healthy Fresh Fruit Shaved Ice Maker | Kickstarter | [链接](https://www.kickstarter.com/projects/2nd-gen-quickfreezer-shaved-ice-machine) | HKD 613,378 | HKD 10,000 | 6134% | 267 | 0天 | Hong Kong, Hong Kong | Gadgets | ICEMAGE |  |
-| 5 | Renote Snap: World’s 1st Metal Notebook Wallet | Kickstarter | [链接](https://www.kickstarter.com/projects/renote-snap-worlds-first-7-in-1-notebook-wallet) | GBP 60,697 | GBP 1,127 | 5386% | 753 | 2天 | London, UK | Product Design | Turtle Design Studio |  |
-| 6 | Blast Air - Redefining Portable Air Power | Kickstarter | [链接](https://www.kickstarter.com/projects/blast-air) | $257,357 | $5,000 | 5147% | 2909 | 13天 | El Monte, CA | Product Design | tommylee |  |
-| 7 | GUOER K2: The Smart Cooler & Warmer Bag for Life on the Go | Kickstarter | [链接](https://www.kickstarter.com/projects/guoer-k2-the-smart-cooler-and-warmer-bag-for-life-on-the-go) | $84,201 | $2,000 | 4210% | 500 | 17天 | Denver, CO | Gadgets | NOMIOVA |  |
-| 8 | The Gyro Coin — Defy Gravity With Physics | Kickstarter | [链接](https://www.kickstarter.com/projects/gyro-coin) | $103,178 | $2,500 | 4127% | 1547 | 8天 | Boston, MA | Product Design | Aerohart |  |
-| 9 | OMENDIAL DICE: A Mechanical 7-in-1 Spinner Die for RPGs | Kickstarter | [链接](https://www.kickstarter.com/projects/omendial-dicerotating-dice-inspired-by-ancient-greek-sundia) | $80,432 | $2,000 | 4022% | 816 | 1天 | Denver, CO | Gadgets | LOOPLULL |  |
-| 10 | 4D Maxx: triple your luggage capacity. Now semi-transparent | Kickstarter | [链接](https://www.kickstarter.com/projects/4d-maxx-luggage-airplane-storage-suitcase-triple-capacity) | $93,471 | $2,500 | 3739% | 734 | 1天 | Baltimore, MD | Product Design | GearLand Tech |  |
+| 1 | OMNI X1: Beyond Real Strength All-in-One Smart Gym Machine | Kickstarter | [链接](https://www.kickstarter.com/projects/omni-x1-best-all-in-one-smart-cable-training-machine) | HKD 13,868,228 | HKD 78,392 | 17691% | 703 | 29天 | Hong Kong, Hong Kong | Hardware | INNODIGYM |  |
+| 2 | TSUKI: A Japanese Knife Designed to be Admired | Kickstarter | [链接](https://www.kickstarter.com/projects/tsuki-a-japanese-knife-designed-to-be-admired) | JPY 74,680,261 | JPY 500,000 | 14936% | 1565 | 8天 | Tokyo, Japan | Product Design | JP-crafts. |  |
+| 3 | DISCORE: 9-in-1 DVD Drive Hub for Creators, Ports & Storage | Kickstarter | [链接](https://www.kickstarter.com/projects/discore-9-in-1-dvd-drive-hub-for-creators-ports-and-storage) | $65,246 | $500 | 13049% | 1074 | 4天 | American, Aurora, CO | Gadgets | DISCORE |  |
+| 4 | Hanboost T1 Pocket Size Laser Engraver for DIY Enthusiast | Kickstarter | [链接](https://www.kickstarter.com/projects/t1-laser-engraver) | $614,320 | $5,000 | 12286% | 4106 | 15天 | Sheridan, WY | Product Design | Hanboost |  |
+| 5 | DUSQ - The World’s Only Sleep Regulation System | Kickstarter | [链接](https://www.kickstarter.com/projects/dusq-the-worlds-only-sleep-regulation-system) | $1,182,247 | $10,000 | 11822% | 4164 | 0天 | Newark, DE | Wearables | DUSQ |  |
+| 6 | Linyo H1: Cordless All-in-one Car wash machine | Kickstarter | [链接](https://www.kickstarter.com/projects/linyo-h1-car-wash-machine) | HKD 2,726,486 | HKD 23,494 | 11605% | 794 | 3天 | Hong Kong, Hong Kong | Technology | Linyo |  |
+| 7 | Misenware: Everything-Safe Food Containers | Kickstarter | [链接](https://www.kickstarter.com/projects/misenware) | $2,247,225 | $25,000 | 8989% | 15721 | 14天 | New York, NY | Product Design | Misen |  |
+| 8 | LUMISTAR CARRY: Quad-camera AI Basketball Training Partner | Kickstarter | [链接](https://www.kickstarter.com/projects/lumistar-carry-ai-quad-camera-basketball-training-partner) | $734,859 | $10,000 | 7349% | 268 | 43天 | Dover, DE | Robots | Lumistar |  |
+| 9 | MorningBlues SonicGlass A1 Lyric Speaker | Kickstarter | [链接](https://www.kickstarter.com/projects/morningblues-sonicglass-a1-floating-lyric-speaker) | HKD 5,581,715 | HKD 78,000 | 7156% | 911 | 12天 | Hong Kong, Hong Kong | Product Design | MorningBlues |  |
+| 10 | Presence — A Persistent Local AI system that lives with you | Kickstarter | [链接](https://www.kickstarter.com/projects/blacknode-presence) | EUR 70,556 | EUR 1,000 | 7056% | 331 | 0天 | Italia, Italy | Software | Massimo Giuseppe Zito |  |
 
 ---
 
-*最后更新：2026-07-08 09:14:47*
+*最后更新：2026-07-09 09:01:13*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*

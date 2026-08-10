@@ -5,23 +5,23 @@
 > **筛选规则**：按众筹完成度排序，取 Top 10（重点类别优先）
 > **重点类别**：Technology / Design / Hardware / Gadgets / Wearables / Software / Robots / 3D Printing
 
-## 本周众筹完成度 Top 10（08-02 ~ 08-09）
+## 本周众筹完成度 Top 10（08-03 ~ 08-10）
 
 | 排名 | 产品名称 | 平台 | 项目链接 | 众筹金额 | 目标 | 完成度 | backers | 剩余天数 | 地点 | 类别 | 创始人 | 团队链接 |
 |------|----------|------|----------|----------|------|--------|---------|----------|------|------|--------|----------|
-| 1 | HeyGears G1 Series: First Desktop Full-Color 3D & UV Printer | Kickstarter | [链接](https://www.kickstarter.com/projects/heygears-g1-series-first-desktop-full-color-3d-and-uv-printer) | $11,735,279 | $100,000 | 11735% | 2755 | 33天 | Irvine, CA | DIY Electronics | HeyGears |  |
-| 2 | VENTYRA R1 — Portable Wind Power System for Off-Grid Freedom | Kickstarter | [链接](https://www.kickstarter.com/projects/ventyra-r1-portable-wind-power-system-for-off-grid-freedom) | $44,372 | $1,500 | 2958% | 223 | 27天 | Denver, CO | DIY Electronics | VENTYRA |  |
-| 3 | HERMIX NANO: Turn Your Tablet Into a Smart Car System | Kickstarter | [链接](https://www.kickstarter.com/projects/hermix-nano-turn-your-ipad-into-a-smart-car-system) | HKD 530,840 | HKD 20,000 | 2654% | 724 | 14天 | Hong Kong, Hong Kong | Hardware | HERMIX |  |
-| 4 | WorkBox – A Completely 3D-Printable Enclosed WorkStation | Kickstarter | [链接](https://www.kickstarter.com/projects/workbox-a-completely-3d-printable-enclosed-workstation) | $45,011 | $1,800 | 2501% | 775 | 11天 | Newark, DE | 3D Printing | Creative3DP |  |
-| 5 | Sovol M1D IDEX Tool-Changing 3D Printer | Kickstarter | [链接](https://www.kickstarter.com/projects/sovol-m1d-idex-tool-changing-3d-printer) | HKD 26,473,915 | HKD 1,500,000 | 1765% | 2137 | 18天 | Central, Hong Kong | 3D Printing | SOVOL |  |
-| 6 | CodeeBot: World's 1st GPT-Powered Coding Kit Kids Can Touch | Kickstarter | [链接](https://www.kickstarter.com/projects/codeebot-gpt-powered-screen-free-coding-block-robot-kit) | $93,529 | $10,000 | 935% | 186 | 26天 | Dover, DE | DIY Electronics | CodeeBot |  |
-| 7 | ATROX / High-Performance Safe Foam Dart Blaster | Kickstarter | [链接](https://www.kickstarter.com/projects/atrox-next-gen-brushless-foam-dart-blaster) | HKD 604,845 | HKD 80,000 | 756% | 387 | 21天 | Hong Kong, Hong Kong | Hardware | XTRA |  |
-| 8 | CABLETIME ScreenDock: Built-in Screen. More Than Just Ports | Kickstarter | [链接](https://www.kickstarter.com/projects/cabletime-screendock-built-in-screen-more-than-just-ports) | $20,054 | $3,000 | 668% | 143 | 42天 | New York, NY | DIY Electronics | cabletimetech |  |
-| 9 | GTPlayer: Zoned-Tilt 4-Motor Ergonomic Smart Standing Desk | Kickstarter | [链接](https://www.kickstarter.com/projects/gtplayer-zoned-tilt-4-motor-ergonomic-smart-standing-desk) | $36,636 | $10,000 | 366% | 66 | 19天 | Pasadena, CA | Hardware | GTPlayer |  |
-| 10 | Case8 | Kickstarter | [链接](https://www.kickstarter.com/projects/case8) | $13,968 | $18,500 | 76% | 7 | 20天 | Anaheim, CA | Hardware | Globalscale Technologies Inc |  |
+| 1 | Cladist Titan: Sorry, Old Driver. The Guesswork Era Is Over. | Kickstarter | [链接](https://www.kickstarter.com/projects/cladist-titan-15-1-torque-redefines-power-and-precision) | $440,616 | $2,000 | 22031% | 4885 | 3天 | New York, NY | Product Design | Cladist |  |
+| 2 | Smokpub Doubot — Smart Dough Fermentation: Heat.Track.Know. | Kickstarter | [链接](https://www.kickstarter.com/projects/doubot-smarter-fermentation-for-dough-heat-track-know) | $199,392 | $1,000 | 19939% | 1197 | 13天 | New York, NY | Product Design | Smokpub Tech |  |
+| 3 | Disk Pro 2丨Ultimate Choice Cooling Hub for EDC Devices | Kickstarter | [链接](https://www.kickstarter.com/projects/disk-pro-2) | $727,275 | $5,000 | 14546% | 7255 | 6天 | New York, NY | Gadgets | Sharge Tech |  |
+| 4 | HeyGears G1 Series: First Desktop Full-Color 3D & UV Printer | Kickstarter | [链接](https://www.kickstarter.com/projects/heygears-g1-series-first-desktop-full-color-3d-and-uv-printer) | $11,871,540 | $100,000 | 11872% | 2786 | 32天 | Irvine, CA | DIY Electronics | HeyGears |  |
+| 5 | TYRAVO: Portable Dual 4K Display with Glasses-Free 3D | Kickstarter | [链接](https://www.kickstarter.com/projects/tyravo-portable-dual-4k-display-with-glasses-free-3d) | $135,128 | $2,000 | 6756% | 123 | 5天 | California City, CA | Gadgets | Tyravo-ks@outlook.com |  |
+| 6 | PixelMug S1 Series — The Most Playable Mug Ever | Kickstarter | [链接](https://www.kickstarter.com/projects/pixelmug-s1-series-the-most-playable-mug-ever) | HKD 2,635,236 | HKD 39,200 | 6723% | 2404 | 12天 | Kowloon, Hong Kong | Gadgets | Pixelmug |  |
+| 7 | SYITREN RM1: Frame Your Music, A Living Art CD Player | Kickstarter | [链接](https://www.kickstarter.com/projects/syitren-rm1-frame-your-music-live-art-cd-player) | $165,072 | $3,000 | 5502% | 1501 | 23天 | Dever, OR | Product Design | SYITREN |  |
+| 8 | Meet Beni, Your First All-Terrain Camera Robot | Kickstarter | [链接](https://www.kickstarter.com/projects/beni-all-terrain-camera-robot) | $2,697,783 | $50,000 | 5396% | 4306 | 27天 | Palo Alto, CA | Camera Equipment | Mondo Robotics |  |
+| 9 | JOYROOM PODIX PR70: 240W Power Bank with Dual TFT Displays | Kickstarter | [链接](https://www.kickstarter.com/projects/podix-pr70-240w-power-bank-with-upgraded-dual-tft-displays) | $157,707 | $3,000 | 5257% | 1266 | 3天 | Spokane, WA | Gadgets | JOYROOM |  |
+| 10 | Lumysi: Track Your Health. Wear It With Style. | Kickstarter | [链接](https://www.kickstarter.com/projects/lumysi-the-luxury-fitness-bracelet) | $510,681 | $10,000 | 5107% | 2440 | 1天 | San Francisco, CA | Gadgets | Lumysi |  |
 
 ---
 
-*最后更新：2026-08-09 11:13:20*
+*最后更新：2026-08-10 10:31:15*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*

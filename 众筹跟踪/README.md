@@ -5,23 +5,23 @@
 > **筛选规则**：按众筹完成度排序，取 Top 10（重点类别优先）
 > **重点类别**：Technology / Design / Hardware / Gadgets / Wearables / Software / Robots / 3D Printing
 
-## 本周众筹完成度 Top 10（10-11 ~ 10-18）
+## 本周众筹完成度 Top 10（10-12 ~ 10-19）
 
 | 排名 | 产品名称 | 平台 | 项目链接 | 众筹金额 | 目标 | 完成度 | backers | 剩余天数 | 地点 | 类别 | 创始人 | 团队链接 |
 |------|----------|------|----------|----------|------|--------|---------|----------|------|------|--------|----------|
-| 1 | Smokpub Smokery: The World's First Smoking Dehydrator. | Kickstarter | [链接](https://www.kickstarter.com/projects/smokery-the-worlds-first-smoking-dehydrator) | $737,128 | $1,000 | 73713% | 3750 | 6天 | New York, NY | Product Design | Smokpub |  |
-| 2 | Wizard’s Light: A Staff-Lamp That Brings Magic to Your Space | Kickstarter | [链接](https://www.kickstarter.com/projects/wizards-light-a-staff-lamp-that-brings-magic-to-your-space) | $2,188,970 | $5,000 | 43779% | 8784 | 0天 | Albany, NY | Product Design | Eldencraft |  |
-| 3 | VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER | Kickstarter | [链接](https://www.kickstarter.com/projects/violoop-plug-in-ai-for-your-computer) | HKD 20,222,026 | HKD 78,424 | 25786% | 4757 | 12天 | Hong Kong, Hong Kong | Hardware | Bvio Tech |  |
-| 4 | ToolDance X1: Smart Desktop CNC with Industrial Capability | Kickstarter | [链接](https://www.kickstarter.com/projects/tooldance-x1-smart-desktop-cnc-with-industrial-capability) | $12,261,338 | $50,000 | 24523% | 2434 | 42天 | San Jose, CA | Fabrication Tools | ToolDance |  |
-| 5 | Camp Torch: Light, Heat, Atmosphere. The Modular System. | Kickstarter | [链接](https://www.kickstarter.com/projects/camp-torch-heat-light-cook-the-outdoor-modular-system) | $536,224 | $3,000 | 17874% | 929 | 15天 | Boise, ID | Product Design | Camp Torch |  |
-| 6 | The World’s First Desktop Robotic Terminal | Kickstarter | [链接](https://www.kickstarter.com/projects/cybopal-worlds-first-active-tracking-ai-robotic-monitor) | HKD 13,101,481 | HKD 80,000 | 16377% | 589 | 34天 | Hong Kong, Hong Kong | Robots | CyboPal |  |
-| 7 | Frost Titan Core Plate: Elevate Your Outdoor Experience. | Kickstarter | [链接](https://www.kickstarter.com/projects/frost-titan-core-plate-10mm-titanium-cooling-plate) | JPY 39,856,266 | JPY 300,000 | 13285% | 1180 | 15天 | Tokyo, Japan | Gadgets | storagellc-japan |  |
-| 8 | MakiMate: A Creative Studio That Transforms With You | Kickstarter | [链接](https://www.kickstarter.com/projects/the-first-all-in-one-creator-workstation-with-hidden-storage) | $225,397 | $2,000 | 11270% | 453 | 27天 | New York, NY | Product Design | MakiMate |  |
-| 9 | NeoPace G10 Pro: World's First AI 3D-Replay Golf Monitor | Kickstarter | [链接](https://www.kickstarter.com/projects/neopace-g10-pro-ai-powered-3d-replay-golf-launch-monitor) | $520,128 | $5,000 | 10403% | 554 | 23天 | Irvine, CA | Hardware | NeoPace |  |
-| 10 | AirCannon GPX: UNLEASH 118MPH POWER. THE MONSTER BLOWER | Kickstarter | [链接](https://www.kickstarter.com/projects/aircannon-gpx-unleash-118mph-power-the-monster-blower) | $488,704 | $5,000 | 9774% | 2740 | 19天 | Wilmington, DE | Hardware | Magpie Tech |  |
+| 1 | VIOLOOP - PLUG-IN AI FOR YOUR COMPUTER | Kickstarter | [链接](https://www.kickstarter.com/projects/violoop-plug-in-ai-for-your-computer) | HKD 20,635,358 | HKD 78,424 | 26313% | 4817 | 11天 | Hong Kong, Hong Kong | Hardware | Bvio Tech |  |
+| 2 | ToolDance X1: Smart Desktop CNC with Industrial Capability | Kickstarter | [链接](https://www.kickstarter.com/projects/tooldance-x1-smart-desktop-cnc-with-industrial-capability) | $13,020,972 | $50,000 | 26042% | 2581 | 41天 | San Jose, CA | Fabrication Tools | ToolDance |  |
+| 3 | The World’s First Desktop Robotic Terminal | Kickstarter | [链接](https://www.kickstarter.com/projects/cybopal-worlds-first-active-tracking-ai-robotic-monitor) | HKD 8,589,565 | HKD 80,000 | 10737% | 495 | 33天 | Hong Kong, Hong Kong | Robots | CyboPal |  |
+| 4 | MetMo Precision Grip | Kickstarter | [链接](https://www.kickstarter.com/projects/metmo-precision-grip) | GBP 988,570 | GBP 10,000 | 9886% | 4414 | 10天 | Leeds, UK | Product Design | MetMo Cube |  |
+| 5 | MAVEN TALON - Travel-Friendly, Shape-Shifting Video Lights | Kickstarter | [链接](https://www.kickstarter.com/projects/maven-talon-travel-friendly-shape-shifting-video-lights) | $59,404 | $1,000 | 5940% | 163 | 25天 | Sheridan, WY | Camera Equipment | Michael The Maven |  |
+| 6 | Rollaway: The SUV of Carry-On Rollers for Parents | Kickstarter | [链接](https://www.kickstarter.com/projects/rollaway-carry-on-for-family-travel) | $1,201,253 | $30,000 | 4004% | 2838 | 26天 | Vancouver, Canada | Product Design | No Reception Club |  |
+| 7 | QROV X2 NEO — First AI Dash Cam That Thinks Beyond Recording | Kickstarter | [链接](https://www.kickstarter.com/projects/qrov-x2-neo-first-ai-dashcam-that-thinks-beyond-recording) | $191,272 | $10,100 | 1894% | 395 | 11天 | San Jose, CA | Camera Equipment | Qrov Inc |  |
+| 8 | PixelMob: Portable-AI-Workstation-for-Creators | Kickstarter | [链接](https://www.kickstarter.com/projects/pixelmob-portable-ai-workstation-for-creators) | $938,568 | $50,000 | 1877% | 1014 | 7天 | Dover, DE | Hardware | UnifyDrive |  |
+| 9 | ArcBlue C42: First Smart Full-Frame Astrophotography System | Kickstarter | [链接](https://www.kickstarter.com/projects/arcblue-c42-smart-full-frame-astrophotography-system) | HKD 6,341,332 | HKD 400,000 | 1585% | 213 | 54天 | Hong Kong, Hong Kong | Camera Equipment | ArcBlue |  |
+| 10 | BirdVue: The World's First 4G Smart Bird Feeder | Kickstarter | [链接](https://www.kickstarter.com/projects/birdvue-the-4g-ai-smart-bird-feederbeyond-backyard) | $18,658 | $2,000 | 933% | 101 | 19天 | Wyoming, WY | Camera Equipment | BirdVue |  |
 
 ---
 
-*最后更新：2026-10-18 09:16:29*
+*最后更新：2026-10-19 09:46:51*
 
 *本文件由自动化脚本生成。Indiegogo 数据可能因反爬虫限制而缺失。*
